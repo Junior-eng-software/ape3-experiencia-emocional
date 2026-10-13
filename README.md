@@ -19,7 +19,7 @@ Estados: **Pendiente → En proceso → En revisión → Finalizado**. Cada fren
 | C | 3 problemas, 3 mejoras, comparativo Figma | `ape3/mejoras-figma` | `mejoras/` |
 | D | Fuentes, plan de evaluación, reflexiones e índice del informe | `ape3/evidencias-informe` | `evidencias/`, `reflexiones/`, `informe/` |
 
-Las **cuatro tareas** se describen en [Issues](../../issues). Se asignarán a cada persona cuando se conozcan sus cuentas de GitHub.
+Las **cuatro tareas** se describen en [Issues](../../issues). Los responsables y sus cuentas constan abajo. Algunas asignaciones de GitHub pueden permanecer pendientes hasta que se acepten las invitaciones.
 
 ## Cómo contribuir
 1. Cada integrante trabaja en **su rama**, creada a partir de `main`, y modifica solo sus carpetas.
@@ -30,10 +30,10 @@ Las **cuatro tareas** se describen en [Issues](../../issues). Se asignarán a ca
 ## Participación verificable (completar con aportes reales)
 | Rol | Nombre y GitHub | Issue | Commits y PR | Actividades verificadas |
 |---|---|---|---|---|
-| A | Juan Carvajal (usuario GitHub pendiente) | [#1](../../issues/1) | Pendiente | Análisis UX |
-| B | Eduardo Chicaiza (usuario GitHub pendiente de verificar) | [#2](../../issues/2) | Pendiente | Curva emocional |
-| C | Erick López (usuario GitHub pendiente) | [#3](../../issues/3) | Pendiente | Mejoras HCI y Figma |
-| D | Mauricio Guevara (usuario GitHub pendiente) | [#4](../../issues/4) | Pendiente | Evidencias e informe |
+| A | Juan Carvajal ([@juanjose1234456787654](https://github.com/juanjose1234456787654)) | [#1](../../issues/1) | Pendiente | Análisis UX |
+| B | Eduardo Chicaiza ([@Junior-eng-software](https://github.com/Junior-eng-software), cuenta vinculada al repositorio) | [#2](../../issues/2) | Pendiente | Curva emocional |
+| C | Erick López ([@ErickAloy871](https://github.com/ErickAloy871)) | [#3](../../issues/3) | Pendiente | Mejoras HCI y Figma |
+| D | Mauricio Guevara ([@Mauri10G](https://github.com/Mauri10G)) | [#4](../../issues/4) | Pendiente | Evidencias e informe |
 
 > **Protección de datos:** no publicar números de cuenta, cédulas, contraseñas, códigos OTP, saldos o comprobantes identificables; no hacer transferencias reales por la tarea. Si algo no se probó, declararlo como hipótesis o inspección experta, no como resultado de usuarios.
 
