@@ -30,10 +30,10 @@ Las **cuatro tareas** se describen en [Issues](../../issues). Se asignarán a ca
 ## Participación verificable (completar con aportes reales)
 | Rol | Nombre y GitHub | Issue | Commits y PR | Actividades verificadas |
 |---|---|---|---|---|
-| A | Pendiente | Por enlazar | Pendiente | Pendiente |
-| B | Pendiente | Por enlazar | Pendiente | Pendiente |
-| C | Pendiente | Por enlazar | Pendiente | Pendiente |
-| D | Pendiente | Por enlazar | Pendiente | Pendiente |
+| A | Juan Carvajal (usuario GitHub pendiente) | [#1](../../issues/1) | Pendiente | Análisis UX |
+| B | Eduardo Chicaiza (usuario GitHub pendiente de verificar) | [#2](../../issues/2) | Pendiente | Curva emocional |
+| C | Erick López (usuario GitHub pendiente) | [#3](../../issues/3) | Pendiente | Mejoras HCI y Figma |
+| D | Mauricio Guevara (usuario GitHub pendiente) | [#4](../../issues/4) | Pendiente | Evidencias e informe |
 
 > **Protección de datos:** no publicar números de cuenta, cédulas, contraseñas, códigos OTP, saldos o comprobantes identificables; no hacer transferencias reales por la tarea. Si algo no se probó, declararlo como hipótesis o inspección experta, no como resultado de usuarios.
 
