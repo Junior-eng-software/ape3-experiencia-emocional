@@ -1,8 +1,8 @@
-# APE3 — Curva emocional UX (evaluación experta preliminar)
+# APE3 — Curva emocional UX (autorreporte parcial + evaluación experta preliminar)
 
 **Responsable:** Eduardo Chicaiza · **Issue:** [#2](https://github.com/Junior-eng-software/ape3-experiencia-emocional/issues/2) · **Fecha de elaboración:** 2026-10-14
 
-> **IMPORTANTE — NO ES UNA PRUEBA DE USUARIOS.** Los valores de la matriz son **hipótesis ilustrativas de una inspección experta**, no puntuaciones expresadas por clientes, ni emociones observadas ni resultados estadísticos. Antes de presentarlos como hallazgos deben contrastarse con la interfaz o con pruebas breves correctamente documentadas.
+> **ESTADO DE EVIDENCIA MIXTO.** **T01–T03** proceden del autorreporte de observaciones individuales del evaluador (registradas el 14 de octubre de 2026; fecha de interacción no especificada). **T04–T08** siguen siendo hipótesis de inspección experta, **no resultados reales**. No hubo participantes externos, medición controlada ni transacción bancaria efectuada. La versión de la app no fue informada.
 
 ## 1. Contexto y fuente
 
@@ -10,7 +10,8 @@
 - Tarea de usuario hipotético: transferir a una cuenta no guardada de otro banco, verificando el beneficiario antes de confirmar.
 - Fuente documental consultada el **14 de octubre de 2026**: [guía oficial «¿Cómo transfiero a una cuenta no guardada de otro banco?»](https://soporte.pichincha.com/hc/es-419/articles/39805280403355--C%C3%B3mo-transfiero-a-una-cuenta-no-guardada-de-otro-banco).
 - Los pasos T02–T08 derivan de la guía. **T01 es contexto de acceso** y no está descrito en esa guía.
-- No se ha interactuado con una cuenta real, no se ha confirmado una transacción y no se han recogido respuestas de participantes.
+- El evaluador indicó tener instalada la app y describió personalmente T01–T03, sin compartir capturas ni datos privados. No declaró haber efectuado ninguna transacción en esta evaluación. No se recogieron respuestas de participantes adicionales.
+- **Diferenciar registro de observación de prueba controlada:** las declaraciones corresponden a una experiencia individual no supervisada y no generalizable.
 
 ## 2. Escala emocional
 
@@ -24,22 +25,30 @@
 | +2 | Positiva: alivio, confianza o tranquilidad |
 | +3 | Muy positiva: satisfacción o tranquilidad intensa |
 
-Se asignan enteros entre −3 y +3. La valoración representa **una reacción posible** de la persona objetivo; no prueba que ocurra.
+Se asignan enteros entre −3 y +3. **T01–T03 conservan exactamente las emociones y valores declarados por el evaluador**. T04–T08 corresponden a reacciones posibles sin verificar.
 
-## 3. Matriz preliminar y trazabilidad
+## 3. Matriz de resultados y trazabilidad
 
-| ID | Momento | Emoción posible | Valor hipotético | Interpretación y evidencia |
+**Avance:** 3 de 8 momentos con observaciones individuales autorreportadas. T03 es parcial porque no hay información de «Otros Bancos». Los otros cinco son hipótesis aún sin observación.
+
+| ID | Momento | Emoción | Valor | Estado y fundamento |
 |---|---|---|---:|---|
-| T01 | Acceso / inicio de sesión | Neutralidad | 0 | Sin observar el acceso no es justificable atribuir satisfacción ni frustración. |
-| T02 | Encontrar Transferir dinero | Orientación | +1 | Como hipótesis, disponer de dos vías documentadas puede facilitar encontrar la operación. |
-| T03 | Nuevo contacto y Otros Bancos | Atención | 0 | La selección de dos opciones puede exigir atención sin implicar emoción negativa. |
-| T04 | Banco y datos del beneficiario | Inquietud | -1 | Posible precaución por el riesgo de escribir datos erróneos al mover dinero. |
-| T05 | Validar y revisar beneficiario | Alivio | +2 | La posibilidad documentada de comprobar la identidad podría reforzar la confianza. |
-| T06 | Monto y cuenta de origen | Concentración | 0 | El usuario debe contrastar el importe y origen, sin evidencia suficiente para asignar emoción positiva o negativa. |
-| T07 | Revisión y confirmación | Tensión | -1 | La confirmación de una operación financiera puede generar incertidumbre anticipatoria incluso si el flujo funciona. |
-| T08 | Comprobante de transferencia | Tranquilidad | +2 | Si la transferencia concluye correctamente, un comprobante visible podría aportar cierre y certeza. |
+| T01 | Acceso / inicio de sesión | Neutralidad | +1 | Observación individual; discrepancia con escala, por confirmar |
+| T02 | Encontrar Transferir dinero | Confianza | +3 | Observación individual; falta precisar fundamento del +3 |
+| T03 | Nuevo contacto (Otros Bancos pendiente) | Confusión | -1 | Observación parcial; expectativa de ubicación distinta |
+| T04 | Banco y datos del beneficiario | Inquietud | -1 | Hipótesis; observación pendiente |
+| T05 | Validar y revisar beneficiario | Alivio | +2 | Hipótesis; observación pendiente |
+| T06 | Monto y cuenta de origen | Concentración | 0 | Hipótesis; observación pendiente |
+| T07 | Revisión y confirmación | Tensión | -1 | Hipótesis; observación pendiente |
+| T08 | Comprobante de transferencia | Tranquilidad | +2 | Hipótesis; observación pendiente |
 
-El detalle completo, la referencia por momento y sus limitaciones están en [matriz-emocional.csv](matriz-emocional.csv). La curva prevista deberá representar estos ocho valores en el mismo orden, con eje X T01–T08, eje Y de −3 a +3 y línea neutra en 0.
+El detalle exacto de fuente, tipo de evidencia, justificación y limitaciones se registra en [matriz-emocional.csv](matriz-emocional.csv).
+
+### Análisis de los tres autorreportes
+
+- **T01 (+1, «Neutralidad»):** el evaluador considera sencillo el acceso y le agrada la interfaz inicial. Existe **inconsistencia de escala**: «Neutralidad» suele corresponder a 0, mientras +1 es ligeramente positivo. **Se mantienen intactos ambos datos** a la espera de aclaración.
+- **T02 (+3, «Confianza»):** el evaluador respondió «Sí» a si encontró rápidamente la opción de transferir. El valor +3 es su valoración personal, no una medición objetiva. Falta identificar qué rasgo de la interfaz provocó tanta confianza.
+- **T03 (−1, «Confusión»):** no encontró «Nuevo contacto» directamente en el inicio; la opción apareció al ingresar a «Transferir dinero». Interpretación: diferencia entre su expectativa y la estructura de navegación. No constituye automáticamente un error de diseño; es un **punto de fricción emocional observado**. No se ha confirmado la interacción con «Otros Bancos».
 
 ## 4. Momentos de verdad (*moments of truth*)
 
@@ -65,9 +74,11 @@ La guía documenta la aparición de un comprobante una vez finalizada la operaci
 
 ## 5. Lectura preliminar de la curva
 
-En el escenario hipotético, la mayor caída se ubicaría en T04 (introducir datos: −1) y T07 (confirmar: −1), y las recuperaciones en T05 (beneficiario verificado: +2) y T08 (comprobante: +2). **No afirmar que la aplicación presenta un defecto por esas oscilaciones**: pueden obedecer también a la responsabilidad propia de una transferencia bancaria.
+**Tramo observado por autorreporte:** T01 (+1) → T02 (+3) → T03 (−1). Se aprecia una subida de confianza al encontrar la función y una caída al buscar «Nuevo contacto». La curva **no debe interpretarse como resultado completo** hasta completar T04–T08.
 
-**Conexión con HCI:** T05 invita a examinar **retroalimentación y visibilidad del estado**; T07, **prevención de errores y control del usuario**. Esto sirve de insumo independiente para contrastar luego las propuestas del integrante C, sin suponer que ya están justificadas.
+**Tramo aún hipotético:** T04 (−1), T05 (+2), T06 (0), T07 (−1), T08 (+2). Son escenarios de referencia, no emociones declaradas por el evaluador. La visualización diferencia ambos tramos.
+
+**Relación HCI:** T03 puede motivar una inspección de **arquitectura de información y correspondencia entre el sistema y expectativas**. T05 invita a examinar **retroalimentación y visibilidad del estado**, y T07 **prevención de errores y control del usuario**, sin declarar deficiencias antes de observarlas.
 
 ## 6. Cómo contrastar la hipótesis sin usar dinero real
 
@@ -82,8 +93,10 @@ En el escenario hipotético, la mayor caída se ubicaría en T04 (introducir dat
 - [x] Se definieron T01–T08 y una valoración preliminar **hipotética** por momento.
 - [x] Se justificaron T05 y T07 como momentos de verdad **potenciales**.
 - [x] Se identificó la procedencia de cada paso y sus limitaciones.
-- [ ] Incorporar observaciones verificadas de la interfaz o pruebas breves, si están disponibles.
+- [x] Registrar autorreportes de observación individual de T01–T03 (no equivalen a prueba controlada).
+- [ ] Contrastar T01 (neutralidad/+1) y documentar motivo de +3 en T02.
+- [ ] Observar T04–T07 sin confirmar transferencia; T08 solo documentado, si no se ejecuta ninguna.
 - [ ] Exportar la curva en `curva-emocional.png` con escala completa.
 - [ ] Abrir PR con commits verificables y revisar consistencia con evidencia antes del informe.
 
-**Estado:** borrador de evaluación experta, pendiente de validación y de gráfica final.
+**Estado:** evaluación individual parcial (T01–T03) + hipótesis para T04–T08. Pendiente de completar observaciones y de entregar PNG final.
