@@ -56,11 +56,11 @@ T03 es el punto de mayor fricción emocional declarado. Los máximos T02 y T05 r
 - [x] Aclarar T04 como sensación positiva (+2).
 - [x] Aclarar T07 como tranquilidad (+2).
 - [x] Precisar T05: el evaluador declara haber verificado datos **propios y del beneficiario**.
-- [ ] Complementar con evidencia no sensible de los componentes visuales de validación, si está disponible.
+- [x] Incorporar capturas oficiales no sensibles para T03–T04 y respaldo documental T05–T08, en [evidencias-visuales-externas.md](evidencias-visuales-externas.md). Esto **no prueba** las emociones personales ni el detalle visual de validación del beneficiario.
 - [x] Precisar T08: el evaluador declara haber visto un comprobante de la **transferencia actual**, corrigiendo la aclaración anterior.
 - [ ] Anotar si existe alguna evidencia visual no sensible o documentar únicamente el autorreporte.
 - [ ] Confirmar fecha de observación y versión de la app, si están disponibles.
-- [ ] Publicar PNG final y preparar PR tras verificación.
+- [x] Publicar PNG final y abrir PR #5 hacia `main` para revisión.
 
 **Precaución:** no publicar credenciales, comprobantes privados ni datos bancarios identificables, y no efectuar transferencias para generar evidencias.
 
@@ -73,3 +73,9 @@ T03 es el punto de mayor fricción emocional declarado. Los máximos T02 y T05 r
 - **T08:** la aclaración anterior indicaba «anterior»; la nueva declaración indica «**actual: comprobante de la transferencia de esta evaluación**». Se usa la última respuesta, conservando aquí el antecedente.
 
 La fuente de todas estas precisiones es **el relato del evaluador en la conversación**, no una captura de pantalla, una auditoría de la app ni una prueba con usuarios externos. Las puntuaciones T01–T08 no cambiaron.
+
+## Material visual externo (complementario)
+
+Para proteger la privacidad del evaluador, se incorporó el documento [evidencias-visuales-externas.md](evidencias-visuales-externas.md) con **tres imágenes oficiales del Centro de Ayuda Banco Pichincha** y referencias textuales al resto del flujo. Se identifica para cada una la fuente, momento T03/T04 o T05–T08, finalidad y limitación.
+
+**Distinción metodológica:** las imágenes oficiales permiten analizar la navegación documentada, pero **no son capturas de la sesión evaluada ni corroboran las reacciones emocionales declaradas**. T05 y T08 siguen siendo autorreportes individuales. El PR #5 permanecerá abierto hasta revisión grupal.
