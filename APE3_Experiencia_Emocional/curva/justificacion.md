@@ -33,8 +33,8 @@ Se asignan enteros entre −3 y +3. **T01–T03 conservan exactamente las emocio
 
 | ID | Momento | Emoción | Valor | Estado y fundamento |
 |---|---|---|---:|---|
-| T01 | Acceso / inicio de sesión | Neutralidad | +1 | Observación individual; discrepancia con escala, por confirmar |
-| T02 | Encontrar Transferir dinero | Confianza | +3 | Observación individual; falta precisar fundamento del +3 |
+| T01 | Acceso / inicio de sesión | Sensación ligeramente positiva | +1 | Observación individual; aclaración de emoción y valoración consistente |
+| T02 | Encontrar Transferir dinero | Confianza | +3 | Observación individual; motivo declarado: facilidad de uso |
 | T03 | Nuevo contacto (Otros Bancos pendiente) | Confusión | -1 | Observación parcial; expectativa de ubicación distinta |
 | T04 | Banco y datos del beneficiario | Inquietud | -1 | Hipótesis; observación pendiente |
 | T05 | Validar y revisar beneficiario | Alivio | +2 | Hipótesis; observación pendiente |
@@ -46,8 +46,8 @@ El detalle exacto de fuente, tipo de evidencia, justificación y limitaciones se
 
 ### Análisis de los tres autorreportes
 
-- **T01 (+1, «Neutralidad»):** el evaluador considera sencillo el acceso y le agrada la interfaz inicial. Existe **inconsistencia de escala**: «Neutralidad» suele corresponder a 0, mientras +1 es ligeramente positivo. **Se mantienen intactos ambos datos** a la espera de aclaración.
-- **T02 (+3, «Confianza»):** el evaluador respondió «Sí» a si encontró rápidamente la opción de transferir. El valor +3 es su valoración personal, no una medición objetiva. Falta identificar qué rasgo de la interfaz provocó tanta confianza.
+- **T01 (+1, «Sensación ligeramente positiva»):** el evaluador confirmó expresamente que su sensación fue ligeramente positiva (+1); indicó que el inicio de sesión fue sencillo y que le agrada la interfaz inicial. La inconsistencia anterior entre «Neutralidad» y +1 queda aclarada por el propio evaluador.
+- **T02 (+3, «Confianza»):** el evaluador respondió «Sí» a si encontró rápidamente la opción de transferir y precisó que su confianza (+3) se debe a la **facilidad de uso**. Es una percepción subjetiva, sin medición de tiempo ni descripción de elementos particulares de la pantalla.
 - **T03 (−1, «Confusión»):** no encontró «Nuevo contacto» directamente en el inicio; la opción apareció al ingresar a «Transferir dinero». Interpretación: diferencia entre su expectativa y la estructura de navegación. No constituye automáticamente un error de diseño; es un **punto de fricción emocional observado**. No se ha confirmado la interacción con «Otros Bancos».
 
 ## 4. Momentos de verdad (*moments of truth*)
@@ -94,7 +94,7 @@ La guía documenta la aparición de un comprobante una vez finalizada la operaci
 - [x] Se justificaron T05 y T07 como momentos de verdad **potenciales**.
 - [x] Se identificó la procedencia de cada paso y sus limitaciones.
 - [x] Registrar autorreportes de observación individual de T01–T03 (no equivalen a prueba controlada).
-- [ ] Contrastar T01 (neutralidad/+1) y documentar motivo de +3 en T02.
+- [x] Aclarar T01 como sensación ligeramente positiva (+1) y documentar «facilidad de uso» como motivo declarado de T02 (+3).
 - [ ] Observar T04–T07 sin confirmar transferencia; T08 solo documentado, si no se ejecuta ninguna.
 - [ ] Exportar la curva en `curva-emocional.png` con escala completa.
 - [ ] Abrir PR con commits verificables y revisar consistencia con evidencia antes del informe.
