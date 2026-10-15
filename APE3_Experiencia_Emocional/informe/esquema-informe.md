@@ -45,7 +45,7 @@ Se hace después de que A, B y C hagan su PR.
 4. Los tres problemas de C salen de momentos con evidencia y no de suposiciones sueltas.
 5. Las respuestas de reflexión usan los mismos hallazgos que la curva y las mejoras.
 6. No hay datos personales ni comprobantes identificables.
-7. Hay que resolver el tema del comprobante de T08. El rol B habla de una transferencia actual hecha en la evaluación, y el alcance común dice que no se hacen transferencias reales. El grupo decide cómo se redacta.
+7. El comprobante de T08 quedó registrado como desviación en `evidencias/protocolo-y-fuentes.md`, sección 5. Falta que Eduardo confirme qué fue la operación.
 8. Revisar fechas y versión de la app, que hoy no están indicadas.
 
 ## Fuera de alcance
