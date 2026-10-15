@@ -67,7 +67,25 @@ Texto corto de consentimiento para leer en voz alta:
 - T08 se estudia con material público oficial o con el prototipo, nunca con un comprobante personal.
 - No se hacen auditorías de seguridad.
 
-Nota para la integración. La justificación del rol B menciona un comprobante de una transferencia actual hecha durante la evaluación. Eso choca con este límite y con `alcance-comun.md`. El grupo debe decidir cómo lo redacta antes del PDF. Se anota en la sección 9.
+### Registro de desviación sobre T08
+
+**Hecho declarado.** En su autorreporte, el evaluador del rol B, Eduardo Chicaiza, declaró el 14/10/2026 que el comprobante de T08 corresponde a una transferencia actual realizada durante la evaluación. La declaración consta en `curva/matriz-emocional.csv` y en `curva/justificacion.md`.
+
+**Qué significa.** Esa operación no cumple el límite de no efectuar transferencias reales. Este protocolo es un plan y no puede cambiar lo que ocurrió, así que la situación se registra como desviación y no se oculta.
+
+**Qué se hace con ese dato.**
+- Se conserva el valor +1 de T08 como autorreporte, sin cambiarlo.
+- No se publica comprobante, monto, destinatario ni datos bancarios.
+- No se usa como prueba de que una transferencia fue procesada.
+- T08 se respalda además con la guía oficial, paso 9, que describe el comprobante.
+
+**Pendiente de confirmar por el evaluador.**
+- [ ] Qué fue exactamente la operación y si se hizo con su propia cuenta.
+- [ ] Que no se guardó ni se publicó ningún comprobante o dato bancario.
+
+Cuando Eduardo confirme, se ajusta esta sección con sus palabras. Hasta entonces, el informe presenta T08 como autorreporte no verificado.
+
+**Regla que sigue vigente.** El grupo no pide ni promueve transferencias reales. Ninguna observación nueva debe terminar en una transferencia.
 
 ## 6. Tarea y preguntas para la observación breve
 
@@ -121,6 +139,7 @@ Si falta alguno, el informe lo escribe como hipótesis pendiente.
 
 - [ ] Confirmar la fecha de consulta de F1 y F2 abriendo los enlaces.
 - [ ] Anotar la versión de la app si alguien la observa.
-- [ ] Decidir con el grupo cómo se redacta el comprobante de T08.
+- [x] Registrar como desviación lo declarado sobre T08, en la sección 5.
+- [ ] Confirmar con Eduardo qué fue la operación de T08 y ajustar la sección 5 con sus palabras.
 - [ ] Enlazar la fuente F6 con el material exacto de la clase.
 - [ ] Revisar este protocolo contra los hallazgos de A, B y C en la integración.
